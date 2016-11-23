@@ -1,3 +1,12 @@
+/* css reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+ blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, 
+ ol, ul, fieldset, form, label, table, tbody, tr, th, td, input
+{
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2, h3, h4, h5,h6
 {
   margin:30px 60px;
@@ -11,16 +20,28 @@ h1, h2, h3, h4, h5,h6
   box-shadow: #777 5px 5px 10px;
   -moz-box-shadow: #777 5px 5px 10px;
   -webkit-box-shadow: #777 5px 5px 10px;
-   background-color: #dfd;
+   background-color: #96D696;
   font-size:30px;
-  text-align:left;
+  text-align:center;
 }
 
-p 
-{ 
-  margin:30px 60px;
+ul, li 
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+a 
+{
+  display: block;
+  
+  text-align: left;
+  font-size: 26px;
+
+  margin:30px 180px;
   font-family: 'Lora', 'Georgia', serif;
-  padding: 30px;
+  padding: 15px 0px 15px 40px;
 
   border-radius: 20px;
   -moz-border-radius: 20px;
@@ -30,6 +51,6 @@ p
   -moz-box-shadow: #777 5px 5px 10px;
   -webkit-box-shadow: #777 5px 5px 10px;
    background-color: #dfd;
-  font-size:30px;
-  text-align:left;
 }
+
+
