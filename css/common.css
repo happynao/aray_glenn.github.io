@@ -1,3 +1,10 @@
+/*解决页面晃动问题*/
+html
+{
+  width:100vw;
+  overflow-x:hidden;
+}
+
 /* css reset */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
  blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, 
@@ -20,7 +27,7 @@ h1, h2, h3, h4, h5,h6
   box-shadow: #777 5px 5px 10px;
   -moz-box-shadow: #777 5px 5px 10px;
   -webkit-box-shadow: #777 5px 5px 10px;
-   background-color: #96D696;
+  background-color: #96D696;
   font-size:30px;
   text-align:center;
 }
